@@ -11,7 +11,7 @@ nose = "*"
 cython = "*"
 numpy = ">=1.9.0"
 scipy = ">=0.14.1"
-scikit-learn = "<0.22,>=0.21.0"
+scikit-learn = ">=0.21.0,<0.22"
 lockfile = "*"
 joblib = "*"
 psutil = "*"
@@ -22,8 +22,8 @@ configspace = ">=0.4.0,<0.5"
 pynisher = ">=0.4.2"
 pyrfr = ">=0.7,<0.9"
 smac = "==0.8"
-auto-sklearn = "*"
 jupyter = "*"
+auto-sklearn = {path = "/home/dobachi/Downloads.win/auto-sklearn-master.zip"}
 
 [requires]
 python_version = "3.7"
